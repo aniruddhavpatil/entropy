@@ -1,3 +1,4 @@
+// HTMLRewriter class facilitating replacement of an attribute value of an element.
 class AttributeRewriter {
   constructor(attribute, oldContent, newContent) {
     this.attribute = attribute;

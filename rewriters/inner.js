@@ -1,3 +1,4 @@
+// HTMLRewriter class facilitating appendage or replacement of an element.
 class InnerRewriter {
   constructor(method, content) {
     this.method = method;
