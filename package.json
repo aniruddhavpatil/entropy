@@ -11,9 +11,22 @@
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "prettier": "^1.18.2"
   },
   "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
     "node-fetch": "^2.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniruddhavpatil/entropy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aniruddhavpatil/entropy/issues"
+  },
+  "homepage": "https://github.com/aniruddhavpatil/entropy#readme"
 }
