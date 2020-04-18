@@ -1,6 +1,6 @@
 name = "entropy"
 type = "webpack"
-account_id = ""
+account_id = "39bf3131aa509f0461857c4200fd2540"
 workers_dev = true
 route = ""
 zone_id = ""
