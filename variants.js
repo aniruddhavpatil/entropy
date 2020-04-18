@@ -24,9 +24,9 @@ const getCookie = (headers, key) => {
 
 // Get variant whether cookie exists or not.
 const getVariant = (request, variants) => {
-  const variant = parseInt(getCookie(request.headers, 'variant'), 10);
-  if (isNaN(variant)) return chooseVariant(variants);
-  return variant;
+  const variant = getCookie(request.headers, 'variant');
+  if (!variant) return chooseVariant(variants);
+  return parseInt(variant, 10);
 };
 
 // Fetch variant based on given selected variant.
